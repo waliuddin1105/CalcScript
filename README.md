@@ -29,7 +29,7 @@ Source code goes through six phases:
 Clone the repo and you're ready to go. No installation needed.
 
 ```
-git clone https://github.com/your-username/calcscript.git
+git clone https://github.com/waliuddin1105/calcscript.git
 cd calcscript
 ```
 
