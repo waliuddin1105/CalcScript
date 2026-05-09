@@ -40,7 +40,7 @@ cd calcscript
 ### Run a .calc file
 
 ```
-python compiler.py samples/sample1.calc
+python compiler.py sample1.calc
 ```
 
 ### Run with debug output
@@ -48,7 +48,7 @@ python compiler.py samples/sample1.calc
 Shows the token stream, AST, symbol table, TAC, and optimization diff.
 
 ```
-python compiler.py samples/sample1.calc --debug
+python compiler.py sample1.calc --debug
 ```
 
 ### Interactive REPL
@@ -108,10 +108,10 @@ python test_vm.py          // Phase 6 - execution and output
 
 ## Sample files
 
-The `samples/` folder contains `.calc` programs that demonstrate different features of the language. You can run any of them with:
+Several `.calc` sample programs are included in the repo to demonstrate different features of the language. You can run any of them with:
 
 ```
-python compiler.py samples/sample1.calc
+python compiler.py sample1.calc
 ```
 
 Add `--debug` to see all intermediate representations for that file.
