@@ -1,0 +1,11 @@
+// CalcScript Sample Program 1: Basic Arithmetic & Variables
+// ────────────────────────────────────────────────────────
+// Tests: assignment, built-ins, print
+
+x = 16
+y = 3
+result = sqrt(x)
+print result
+
+area = 3.14159 ^ 2
+print area

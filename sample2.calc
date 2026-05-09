@@ -1,0 +1,14 @@
+// CalcScript Sample Program 2: Functions & Conditionals
+// ──────────────────────────────────────────────────────
+
+func square(n) => n * n
+func hypotenuse(a, b) => sqrt(a ^ 2 + b ^ 2)
+
+x = 3
+y = 4
+result = hypotenuse(x, y)
+print result
+
+if result >= 5 then
+    print square(result)
+end

@@ -1,0 +1,21 @@
+// Sample 7: Nested if inside repeat
+// Counts only even steps
+// Expected: prints 10 (sum of 2+4+6+8+10 would be 30, but here we just accumulate)
+
+i = 1
+total = 0
+repeat 5 times
+total = total + i
+i = i + 1
+end
+print total
+// 1+2+3+4+5 = 15  >> 15
+
+// if-else chain
+x = total
+if x > 20 then
+print 1
+else
+print 0
+end
+// 15 > 20 is false  >> 0

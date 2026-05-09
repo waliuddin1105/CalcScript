@@ -1,0 +1,9 @@
+// Sample 4: Factorial using repeat loop
+// Expected output: 120
+n = 5
+result = 1
+repeat 5 times
+result = result * n
+n = n - 1
+end
+print result

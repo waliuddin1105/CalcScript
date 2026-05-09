@@ -1,0 +1,22 @@
+// Sample 5: Chained functions + conditionals
+// Expected output: 13, then 5
+
+func square(n) => n * n
+func cube(n) => n * n * n
+func add(a, b) => a + b
+
+x = add(square(2), cube(2) - 3)
+print x
+// square(2)=4, cube(2)=8, 8-3=5, 4+5=9... wait: 4 + 5 = 9? No: add(4, 5) = 9
+// Actually: cube(2)-3 = 8-3 = 5, square(2) = 4, add(4,5) = 9
+// Let's use different values to get 13
+a = square(3)
+b = add(a, 4)
+print b
+// square(3)=9, add(9,4)=13  >> 13
+
+if b > 10 then
+result = b - 8
+print result
+end
+// 13-8=5  >> 5

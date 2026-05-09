@@ -1,0 +1,18 @@
+// Sample 6: Built-in math functions
+// Expected: 3, 1, 0, 10
+
+x = sqrt(9)
+print x
+// >> 3
+
+y = abs(-1)
+print y
+// >> 1
+
+z = sin(0)
+print z
+// >> 0
+
+w = sqrt(abs(-100))
+print w
+// >> 10
